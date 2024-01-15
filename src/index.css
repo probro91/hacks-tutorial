@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background-color: #659DBD;
 }
+
+.container {
+  margin: 1rem;
+  text-align: center;
+  
+}
+
+.nav {
+  background-color: #4B6F44;
+  font-family: 'Manrope', sans-serif ;
+  color: #FBEEC1;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+  color: green;
+  
+}
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem;
+}
+
+.nav li.active {
+  background-color: #7da974;
+}
+
+.nav li:hover {
+  background-color: #588150;
+}
+
+.slider {
+  position: relative;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  
+  .image {
+   display: flex;
+   margin-top: 3rem;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+   position: center;
+   max-width: 60%;
+   max-height: 50%;
+   height: 100%;
+   border-radius: 20px;
+   
+   }
+  
+  
+  .right-arrow {
+   display: flex;
+   position: absolute;
+   top: 48%;
+   cursor: pointer;
+   z-index: 10;
+   user-select: none;
+   right: 32px;
+   font-size: 3rem;
+   color: #FCEBEA;
+   
+   }
+  
+  
+  .left-arrow {
+   cursor: pointer;
+   z-index: 10;
+   user-select: none;
+   position: absolute;
+   top: 48%;
+   left: 32px;
+   font-size: 3rem;
+   color: #FCEBEA;
+  
+  
+   }
+  
+  
+  .slide {
+   opacity: 0;
+   transition-duration: 1s ease;
+  }
+  
+  
+  .slide.active {
+   opacity: 1;
+   transition-duration: 1s;
+   transform: scale(1.08);
+  }
+  
+  
