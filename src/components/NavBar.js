@@ -10,6 +10,7 @@ const NavBar = () => {
         <Link to = "/" className = "site_title"> Hairy Dawg</Link>
         <CustomLink to = "/">About Me</CustomLink>
         <CustomLink to = "/resume">Resume</CustomLink>
+        <CustomLink to = "/contactme">Contact Me</CustomLink>
       </ul>
     </nav>
   )

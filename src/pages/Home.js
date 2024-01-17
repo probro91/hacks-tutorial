@@ -10,6 +10,12 @@ const Home = () => {
         Hairy Dawg is the costumed mascot of the University of Georgia Bulldogs. Hairy Dawg made his first appearance at the 1981 Sugar Bowl and has been an official mascot of UGA since. Hairy Dawg attends all Georgia Bulldogs football games and most home athletic events.
       </p>
       <img className = "dawgImage" src={headshot} alt="Hairy Dawg" width="400" height="400" />
+      <h2>Skills</h2>
+      <ul>
+        <li>Cheering</li>
+        <li>Football</li>
+        <li>Intimidation</li>
+      </ul>
     </div>
   )
 }
