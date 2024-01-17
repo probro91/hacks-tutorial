@@ -1,0 +1,10 @@
+.home {
+    font-family: 'Manrope', sans-serif ;
+    padding: 1rem;
+}
+
+.dawgImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

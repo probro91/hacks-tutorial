@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import {Link, useMatch, useResolvedPath} from "react-router-dom"
+import "./NavBar.css"
 
 const NavBar = () => {
   return (
