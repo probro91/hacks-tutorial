@@ -3,7 +3,7 @@ import Resume from "./pages/Resume"
 import Home from "./pages/Home"
 import ContactMe from "./pages/ContactMe"
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
-
+import "./index.css"
 
 function App() {
   return (
